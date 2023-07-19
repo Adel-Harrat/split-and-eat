@@ -83,6 +83,7 @@ function App() {
           <SplitEat
             friend={selectedFriend}
             onChangeBalance={handleChangeBalance}
+            key={selectedFriend.id}
           />
         )}
       </main>
